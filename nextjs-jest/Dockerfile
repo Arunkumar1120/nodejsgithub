@@ -10,7 +10,3 @@ COPY . .
 EXPOSE 3000
 # Start the development server
 CMD ["npm", "run", "dev"]
-# Expose the port that Next.js uses (usually 3000)
-EXPOSE 3000
-# Start the development server
-CMD ["npm", "run", "dev"]
